@@ -1,0 +1,29 @@
+# Environment and secrets
+*.env*
+
+# Data, artifacts, and local research files
+*.joblib
+*.json
+models/
+
+# Python
+*.pyc
+*.pyd
+*.pyo
+*.so
+.Python
+__pycache__/
+
+# Logs
+*.log
+logs/
+
+# Venv
+.venv/
+
+
+# Strategy folders (ignore all, keep framework files)
+strategies/*
+!strategies/__init__.py
+!strategies/base_strategy.py
+!strategies/sma_crossover/
